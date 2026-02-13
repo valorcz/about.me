@@ -1,256 +1,262 @@
 {
-  "$schema": "https://jsonresume.org/schema",
-
-  "basics": {
-    "name": "Václav Lorenc",
-    "label": "Principal Information Security Engineer",
-    "email": "vaclav.lorenc@gmail.com",
-    "phone": "+420 608 143 418",
-    "location": {
-      "city": "Brno",
-      "countryCode": "CZ",
-      "region": "Czech Republic"
-    },
-    "summary": "Information security engineer and architect with extensive experience in vulnerability management, SIEM architecture, incident response, malware analysis, and Secure SDLC implementation. Strong background in automation, forensic investigations, and security process improvements across enterprise environments.",
-    "profiles": [
-      {
-        "network": "Website",
-        "username": "Teaching materials",
-        "url": "https://dior.ics.muni.cz/~valor/pv204/"
-      }
-    ]
-  },
-
-  "work": [
-    {
-      "name": "HERE Czech Republic",
-      "location": "Brno, Czech Republic",
-      "position": "Principal Information Security Engineer",
-      "startDate": "2021-01-01",
-      "summary": "Leading vulnerability management, automation, and internal security tooling improvements.",
-      "highlights": [
-        "Managed vulnerability scanning, escalation workflows, and remediation planning.",
-        "Maintained and modernized internally developed security automation projects.",
-        "Improved documentation, internal processes, and operational collaboration.",
-        "Built automated queue management for vulnerability findings."
-      ]
-    },
-    {
-      "name": "Konica Minolta",
-      "location": "Brno, Czech Republic",
-      "position": "Security Architect",
-      "startDate": "2020-01-01",
-      "endDate": "2021-01-01",
-      "summary": "Designed and improved security architecture for the Workplace Hub product.",
-      "highlights": [
-        "Integrated security practices into agile development workflows.",
-        "Implemented Secure SDLC processes and delivered internal training programs.",
-        "Introduced security-focused monitoring and analytics concepts for operational teams."
-      ]
-    },
-    {
-      "name": "Oracle + NetSuite",
-      "location": "Brno, Czech Republic",
-      "position": "Senior Security Analyst / SOC Tier 1 Manager",
-      "startDate": "2016-01-01",
-      "endDate": "2020-01-01",
-      "summary": "Focused on SIEM architecture, SOC operations, and security monitoring improvements.",
-      "highlights": [
-        "Designed log monitoring strategies across complex environments with inconsistent data sources.",
-        "Improved internal communication, documentation, and security response processes.",
-        "Contributed to SIEM architecture including onboarding, integration, and operational planning.",
-        "Developed tooling to manage dashboards, queries, and lookups during cloud migration."
-      ]
-    },
-    {
-      "name": "Honeywell, s.r.o.",
-      "location": "Brno, Czech Republic",
-      "position": "IT Security Analyst / Team Lead",
-      "startDate": "2011-01-01",
-      "endDate": "2016-01-01",
-      "summary": "Incident response and threat analysis specialist with strong focus on forensics and automation.",
-      "highlights": [
-        "Performed advanced forensic investigations and threat analysis.",
-        "Conducted security scans and built automation for repetitive security workflows.",
-        "Provided training and mentorship for junior analysts.",
-        "Designed and implemented open-source IDS management and auditing solutions."
-      ]
-    },
-    {
-      "name": "Institute of Computer Science",
-      "location": "Brno, Czech Republic",
-      "position": "Network Administrator / Senior Network Administrator",
-      "startDate": "2001-01-01",
-      "endDate": "2011-01-01",
-      "summary": "Managed enterprise networking infrastructure and firewall projects for academic environments.",
-      "highlights": [
-        "Designed decentralized firewall solutions for multiple university faculties.",
-        "Implemented auditable firewall management systems based on FireHOL.",
-        "Delivered documentation and training for local administrators."
-      ]
-    }
-  ],
-
-  "education": [
-    {
-      "institution": "Masaryk University, Faculty of Informatics",
-      "location": "Brno, Czech Republic",
-      "area": "Informatics",
-      "studyType": "Mgr. (MSc. equivalent)",
-      "startDate": "1999-01-01",
-      "endDate": "2005-01-01"
-    },
-    {
-      "institution": "Masaryk University, Faculty of Informatics",
-      "location": "Brno, Czech Republic",
-      "area": "Computer Security",
-      "studyType": "RNDr. (MSc. equivalent)",
-      "startDate": "2005-01-01",
-      "endDate": "2009-01-01"
-    }
-  ],
-
-  "certificates": [
-    {
-      "name": "SANS Computer Forensic Investigations (FOR408)",
-      "issuer": "SANS Institute",
-      "date": "2012-10-01"
-    },
-    {
-      "name": "SANS Reverse Engineering of Malware (FOR610) – GREM Certified",
-      "issuer": "SANS Institute",
-      "date": "2013-10-01"
-    },
-    {
-      "name": "SANS Advanced Network Forensics and Analysis (FOR572)",
-      "issuer": "SANS Institute",
-      "date": "2014-05-01"
-    },
-    {
-      "name": "SANS Hacker Tools, Techniques, Exploits, and Incident Handling (SEC504)",
-      "issuer": "SANS Institute",
-      "date": "2017-10-01"
-    }
-  ],
-
-  "skills": [
-    {
-      "name": "Security Engineering",
-      "keywords": [
-        "Incident Response",
-        "Threat Analysis",
-        "Malware Reverse Engineering",
-        "Memory Forensics",
-        "Cryptography Principles",
-        "PCI-DSS / SOX / SOC Audit Familiarity"
-      ]
-    },
-    {
-      "name": "Vulnerability Management",
-      "keywords": [
-        "Tenable.io",
-        "Nessus Agents",
-        "Remediation Planning",
-        "Escalation Automation",
-        "Security Posture Reporting"
-      ]
-    },
-    {
-      "name": "Networking",
-      "keywords": [
-        "Switching and Routing",
-        "BGP",
-        "MPLS",
-        "NetFlow",
-        "VPN and 802.1x",
-        "Firewalling",
-        "IDS/IPS Systems"
-      ]
-    },
-    {
-      "name": "SIEM and Monitoring",
-      "keywords": [
-        "Splunk",
-        "Elastic Stack (ELK)",
-        "Log Management",
-        "Threat Hunting",
-        "Monitoring Strategy Design"
-      ]
-    },
-    {
-      "name": "Programming and Automation",
-      "keywords": [
-        "Python",
-        "Go",
-        "Bash",
-        "C",
-        "SQL",
-        "Splunk Query Language",
-        "JavaScript",
-        "Haskell"
-      ]
-    }
-  ],
-
-  "languages": [
-    {
-      "language": "Czech",
-      "fluency": "Native"
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent"
-    }
-  ],
-
-  "projects": [
-    {
-      "name": "Host Triage Automation",
-      "description": "Reduced initial host triage time from several hours to fully automated evidence collection integrated into internal systems.",
-      "highlights": [
-        "Implemented orchestration for Mandiant MIR triage workflows.",
-        "Scaled to hundreds of hosts and became a production-ready solution.",
-        "Recognized internally as an innovation project."
-      ]
-    },
-    {
-      "name": "Unified Search and Ticketing Overlay",
-      "description": "Developed an overlay system improving case correlation and metadata search for analysts.",
-      "highlights": [
-        "Streamlined analysis of common false positives.",
-        "Enabled powerful search across case indicators and metadata."
-      ]
-    },
-    {
-      "name": "Centralized Audited IDS Management",
-      "description": "Designed and implemented an open-source IDS management solution with peer-reviewed configuration and auditability.",
-      "highlights": [
-        "Built using Git, GitLab, Bash, and Python.",
-        "Deployed consistently across multiple datacenters."
-      ]
-    },
-    {
-      "name": "Secure SDLC Implementation and Trainings",
-      "description": "Designed Secure SDLC processes focusing on encryption, secrets handling, secure configuration management, TLS, and OAuth2."
-    },
-    {
-      "name": "Vulnerability Management Automation Framework",
-      "description": "Built automation improving escalation workflows, ticketing, and mitigation coverage for vulnerability findings."
-    }
-  ],
-
-  "volunteer": [
-    {
-      "organization": "Masaryk University",
-      "position": "Guest Lecturer / Security Trainer",
-      "startDate": "2013-01-01",
-      "summary": "Delivering hands-on security workshops and lectures for students in malware analysis, data analytics, and threat modeling.",
-      "highlights": [
-        "In-Memory Malware Analysis: introduction to memory forensics with practical malware investigation exercises.",
-        "Small Peek into Big Data Analytics: lessons learned in security data analysis and visualization pitfalls.",
-        "Introduction to Threat Modelling: structured risk-based reasoning and threat modeling workshops."
-      ],
-      "url": "https://dior.ics.muni.cz/~valor/pv204/"
-    }
-  ]
+	"$schema": "https://jsonresume.org/schema",
+	"basics": {
+		"name": "Václav Lorenc",
+		"label": "Principal Information Security Engineer",
+		"image": "https://avatars.githubusercontent.com/valorcz",
+		"email": "vaclav.lorenc@gmail.com",
+		"phone": "+420 608 143 418",
+		"location": {
+			"city": "Brno",
+			"countryCode": "CZ",
+			"region": "Czech Republic"
+		},
+		"summary": "Information security engineer and architect with extensive experience in vulnerability management, SIEM architecture, incident response, malware analysis, and Secure SDLC implementation. Strong background in automation, forensic investigations, and security process improvements across enterprise environments.",
+		"profiles": [
+			{
+				"network": "Github",
+				"username": "valorcz",
+				"url": "https://github.com/valorcz"
+			},
+			{
+				"network": "Linkedin",
+				"username": "valor",
+				"url": "https://www.linkedin.com/in/valor/"
+			}
+		]
+	},
+	"work": [
+		{
+			"name": "HERE Czech Republic",
+			"location": "Brno, Czech Republic",
+			"position": "Principal Information Security Engineer",
+			"startDate": "2021-01-01",
+			"summary": "Leading vulnerability management, automation, and internal security tooling improvements.",
+			"highlights": [
+				"Managed vulnerability scanning, escalation workflows, and remediation planning.",
+				"Maintained and modernized internally developed security automation projects.",
+				"Improved documentation, internal processes, and operational collaboration.",
+				"Built automated queue management for vulnerability findings."
+			]
+		},
+		{
+			"name": "Konica Minolta",
+			"location": "Brno, Czech Republic",
+			"position": "Security Architect",
+			"startDate": "2020-01-01",
+			"endDate": "2021-01-01",
+			"summary": "Designed and improved security architecture for the Workplace Hub product.",
+			"highlights": [
+				"Integrated security practices into agile development workflows.",
+				"Implemented Secure SDLC processes and delivered internal training programs.",
+				"Introduced security-focused monitoring and analytics concepts for operational teams."
+			]
+		},
+		{
+			"name": "Oracle + NetSuite",
+			"location": "Brno, Czech Republic",
+			"position": "Senior Security Analyst / SOC Tier 1 Manager",
+			"startDate": "2016-01-01",
+			"endDate": "2020-01-01",
+			"summary": "Focused on SIEM architecture, SOC operations, and security monitoring improvements.",
+			"highlights": [
+				"Designed log monitoring strategies across complex environments with inconsistent data sources.",
+				"Improved internal communication, documentation, and security response processes.",
+				"Contributed to SIEM architecture including onboarding, integration, and operational planning.",
+				"Developed tooling to manage dashboards, queries, and lookups during cloud migration."
+			]
+		},
+		{
+			"name": "Honeywell, s.r.o.",
+			"location": "Brno, Czech Republic",
+			"position": "IT Security Analyst / Team Lead",
+			"startDate": "2011-01-01",
+			"endDate": "2016-01-01",
+			"summary": "Incident response and threat analysis specialist with strong focus on forensics and automation.",
+			"highlights": [
+				"Performed advanced forensic investigations and threat analysis.",
+				"Conducted security scans and built automation for repetitive security workflows.",
+				"Provided training and mentorship for junior analysts.",
+				"Designed and implemented open-source IDS management and auditing solutions."
+			]
+		},
+		{
+			"name": "Institute of Computer Science",
+			"location": "Brno, Czech Republic",
+			"position": "Network Administrator / Senior Network Administrator",
+			"startDate": "2001-01-01",
+			"endDate": "2011-01-01",
+			"summary": "Managed enterprise networking infrastructure and firewall projects for academic environments.",
+			"highlights": [
+				"Designed decentralized firewall solutions for multiple university faculties.",
+				"Implemented auditable firewall management systems based on FireHOL.",
+				"Delivered documentation and training for local administrators."
+			]
+		}
+	],
+	"education": [
+		{
+			"institution": "Masaryk University, Faculty of Informatics",
+			"location": "Brno, Czech Republic",
+			"area": "Informatics",
+			"studyType": "Mgr. (MSc. equivalent)",
+			"startDate": "1999-01-01",
+			"endDate": "2005-01-01"
+		},
+		{
+			"institution": "Masaryk University, Faculty of Informatics",
+			"location": "Brno, Czech Republic",
+			"area": "Computer Security",
+			"studyType": "RNDr. (MSc. equivalent)",
+			"startDate": "2005-01-01",
+			"endDate": "2009-01-01"
+		}
+	],
+	"certificates": [
+		{
+			"name": "SANS Computer Forensic Investigations (FOR408)",
+			"issuer": "SANS Institute",
+			"date": "2012-10-01"
+		},
+		{
+			"name": "SANS Reverse Engineering of Malware (FOR610) – GREM Certified",
+			"issuer": "SANS Institute",
+			"date": "2013-10-01"
+		},
+		{
+			"name": "SANS Advanced Network Forensics and Analysis (FOR572)",
+			"issuer": "SANS Institute",
+			"date": "2014-05-01"
+		},
+		{
+			"name": "SANS Hacker Tools, Techniques, Exploits, and Incident Handling (SEC504)",
+			"issuer": "SANS Institute",
+			"date": "2017-10-01"
+		}
+	],
+	"skills": [
+		{
+			"name": "Security Engineering",
+			"keywords": [
+				"Incident Response",
+				"Threat Analysis",
+				"Malware Reverse Engineering",
+				"Memory Forensics",
+				"Cryptography Principles",
+				"PCI-DSS / SOX / SOC Audit Familiarity"
+			]
+		},
+		{
+			"name": "Vulnerability Management",
+			"keywords": [
+				"Tenable.io",
+				"Nessus Agents",
+				"Remediation Planning",
+				"Escalation Automation",
+				"Security Posture Reporting"
+			]
+		},
+		{
+			"name": "Networking",
+			"keywords": [
+				"Switching and Routing",
+				"BGP",
+				"MPLS",
+				"NetFlow",
+				"VPN and 802.1x",
+				"Firewalling",
+				"IDS/IPS Systems"
+			]
+		},
+		{
+			"name": "SIEM and Monitoring",
+			"keywords": [
+				"Splunk",
+				"Elastic Stack (ELK)",
+				"Log Management",
+				"Threat Hunting",
+				"Monitoring Strategy Design"
+			]
+		},
+		{
+			"name": "Programming and Automation",
+			"keywords": [
+				"Python",
+				"Go",
+				"Bash",
+				"C",
+				"SQL",
+				"Splunk Query Language",
+				"JavaScript",
+				"Haskell"
+			]
+		}
+	],
+	"languages": [
+		{
+			"language": "Czech",
+			"fluency": "Native"
+		},
+		{
+			"language": "English",
+			"fluency": "Fluent"
+		}
+	],
+	"projects": [
+		{
+			"name": "Host Triage Automation",
+			"description": "Reduced initial host triage time from several hours to fully automated evidence collection integrated into internal systems.",
+			"highlights": [
+				"Implemented orchestration for Mandiant MIR triage workflows.",
+				"Scaled to hundreds of hosts and became a production-ready solution.",
+				"Recognized internally as an innovation project."
+			]
+		},
+		{
+			"name": "Unified Search and Ticketing Overlay",
+			"description": "Developed an overlay system improving case correlation and metadata search for analysts.",
+			"highlights": [
+				"Streamlined analysis of common false positives.",
+				"Enabled powerful search across case indicators and metadata."
+			]
+		},
+		{
+			"name": "Centralized Audited IDS Management",
+			"description": "Designed and implemented an open-source IDS management solution with peer-reviewed configuration and auditability.",
+			"highlights": [
+				"Built using Git, GitLab, Bash, and Python.",
+				"Deployed consistently across multiple datacenters."
+			]
+		},
+		{
+			"name": "Secure Authentication Token",
+			"description": "Project focused on a novel implementation of a 'firewall' for smartcards.",
+			"highlights": [
+				"Responsible for the design and implementation of the software part of the solution.",
+				"Finite-state automata theory used for the implementation of a domain-specific language.",
+				"Implemented in assembler on a custom hardware."
+			]
+		},
+		{
+			"name": "Secure SDLC Implementation and Trainings",
+			"description": "Designed Secure SDLC processes focusing on encryption, secrets handling, secure configuration management, TLS, and OAuth2."
+		},
+		{
+			"name": "Vulnerability Management Automation Framework",
+			"description": "Built automation improving escalation workflows, ticketing, and mitigation coverage for vulnerability findings."
+		}
+	],
+	"volunteer": [
+		{
+			"organization": "Masaryk University",
+			"position": "Guest Lecturer",
+			"startDate": "2013-01-01",
+			"summary": "Delivering hands-on security workshops and lectures for students in malware analysis, data analytics, and threat modeling.",
+			"highlights": [
+				"Introduction to Threat Modelling (2023–Present): Structured risk-based reasoning and threat modeling workshops .",
+				"Small Peek into Big Data Analytics (2018–Present): Lessons learned in security data analysis and visualization pitfalls.",
+				"In-Memory Malware Analysis (2013–Present): Introduction to memory forensics with practical malware investigation exercises."
+			]
+		}
+	]
 }
