@@ -1,5 +1,6 @@
 {
   "$schema": "https://jsonresume.org/schema",
+
   "basics": {
     "name": "Václav Lorenc",
     "label": "Principal Information Security Engineer",
@@ -14,11 +15,12 @@
     "profiles": [
       {
         "network": "Website",
-        "username": "Teaching Materials",
+        "username": "Teaching materials",
         "url": "https://dior.ics.muni.cz/~valor/pv204/"
       }
     ]
   },
+
   "work": [
     {
       "name": "HERE Czech Republic",
@@ -57,7 +59,7 @@
         "Designed log monitoring strategies across complex environments with inconsistent data sources.",
         "Improved internal communication, documentation, and security response processes.",
         "Contributed to SIEM architecture including onboarding, integration, and operational planning.",
-        "Developed tooling to manage dashboards, queries, and lookups during cloud migration [cite: 73-74]."
+        "Developed tooling to manage dashboards, queries, and lookups during cloud migration."
       ]
     },
     {
@@ -88,6 +90,7 @@
       ]
     }
   ],
+
   "education": [
     {
       "institution": "Masaryk University, Faculty of Informatics",
@@ -106,6 +109,7 @@
       "endDate": "2009-01-01"
     }
   ],
+
   "certificates": [
     {
       "name": "SANS Computer Forensic Investigations (FOR408)",
@@ -128,6 +132,7 @@
       "date": "2017-10-01"
     }
   ],
+
   "skills": [
     {
       "name": "Security Engineering",
@@ -186,6 +191,7 @@
       ]
     }
   ],
+
   "languages": [
     {
       "language": "Czech",
@@ -196,6 +202,7 @@
       "fluency": "Fluent"
     }
   ],
+
   "projects": [
     {
       "name": "Host Triage Automation",
@@ -223,23 +230,15 @@
       ]
     },
     {
-      "name": "Secure Authentication Token",
-      "description": "Project focused on a novel implementation of a 'firewall' for smartcards.",
-      "highlights": [
-        "Responsible for the design and implementation of the software part of the solution.",
-        "Finite-state automata theory used for the implementation of a domain-specific language.",
-        "Implemented in assembler on a custom hardware."
-      ]
-    },
-    {
       "name": "Secure SDLC Implementation and Trainings",
-      "description": "Designed Secure SDLC processes focusing on encryption, secrets handling, secure configuration management, TLS, and OAuth2 [cite: 66-67]."
+      "description": "Designed Secure SDLC processes focusing on encryption, secrets handling, secure configuration management, TLS, and OAuth2."
     },
     {
       "name": "Vulnerability Management Automation Framework",
       "description": "Built automation improving escalation workflows, ticketing, and mitigation coverage for vulnerability findings."
     }
   ],
+
   "volunteer": [
     {
       "organization": "Masaryk University",
@@ -247,9 +246,9 @@
       "startDate": "2013-01-01",
       "summary": "Delivering hands-on security workshops and lectures for students in malware analysis, data analytics, and threat modeling.",
       "highlights": [
-        "Introduction to Threat Modelling (2023–Present): Structured risk-based reasoning and threat modeling workshops [cite: 21-22].",
-        "Small Peek into Big Data Analytics (2018–Present): Lessons learned in security data analysis and visualization pitfalls [cite: 18-20].",
-        "In-Memory Malware Analysis (2013–Present): Introduction to memory forensics with practical malware investigation exercises [cite: 14-16]."
+        "In-Memory Malware Analysis: introduction to memory forensics with practical malware investigation exercises.",
+        "Small Peek into Big Data Analytics: lessons learned in security data analysis and visualization pitfalls.",
+        "Introduction to Threat Modelling: structured risk-based reasoning and threat modeling workshops."
       ],
       "url": "https://dior.ics.muni.cz/~valor/pv204/"
     }
